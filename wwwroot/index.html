@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Шифрование и дешифрование</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <h1>RSA</h1>
+
+  <textarea id="inputText" rows="4" placeholder="Введите текст для шифрования/дешифрования"></textarea>
+  <input type="text" id="key" placeholder="Введите ключ">
+  <button onclick="encrypt()">Зашифровать</button>
+  <button onclick="decrypt()">Дешифровать</button>
+  <button onclick="generateKey()">Сгенерировать ключ</button>
+
+  <div id="output">Здесь будет результат</div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
